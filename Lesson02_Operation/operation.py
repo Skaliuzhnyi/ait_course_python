@@ -9,3 +9,6 @@ res = b * 2.3
 print(res)
 res = a / 4
 print(res)
+c = input("Enter square side: ")
+s = c ** 2
+print(s)
