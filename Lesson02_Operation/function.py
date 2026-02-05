@@ -1,0 +1,6 @@
+print("Let me intoduce myself: ")
+print("Julico Bandito")
+print("Let me intoduce myself: ")
+print("Antonio Banderas")
+print("Let me intoduce myself: ")
+print("Hulio Iglesias")
