@@ -17,9 +17,21 @@ print("Max =", result)
 
 # ______________
 
+
 def check_role_admin(role):
-  message = "Allowed" if role == "Administrator" else "Forbidden (404)"
-  return message
+    message = "Allowed" if role == "Administrator" else "Forbidden (404)"
+    return message
+
 
 print(check_role_admin("Administrator"))
 print(check_role_admin("User"))
+
+# ______________
+
+
+def get_min(a, b):
+    return a if a < b else b
+
+
+result = get_min(4, 6)
+print("Min =", result)
