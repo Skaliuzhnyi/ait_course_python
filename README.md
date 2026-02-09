@@ -1,2 +1,2 @@
 # ait_course_python
-_
+Прохождение курса Python в школе AIT TR
