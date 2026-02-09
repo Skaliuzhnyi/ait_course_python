@@ -14,3 +14,12 @@ def get_max(a, b):
 
 result = get_max(4, 6)
 print("Max =", result)
+
+# ______________
+
+def check_role_admin(role):
+  message = "Allowed" if role == "Administrator" else "Forbidden (404)"
+  return message
+
+print(check_role_admin("Administrator"))
+print(check_role_admin("User"))
