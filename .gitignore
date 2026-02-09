@@ -14,4 +14,6 @@ venv/
 *.mp4
 *.mov
 
-.pdf
+*.pdf
+*.zip
+*.rar
