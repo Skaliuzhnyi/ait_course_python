@@ -1,6 +1,6 @@
 # operation typs: '+', '-', '*'. '/'
 
-def calculator(a, b, operation):
+def calculator(a, operation, b):
     text = f"{a} {operation} {b} ="
 
     if operation == "+":
@@ -15,8 +15,8 @@ def calculator(a, b, operation):
         print("Wrong operation typ")
 
 
-calculator(2, 3, "-")
-calculator(2, 3, "+")
-calculator(2, 3, "*")
-calculator(2, 3, "/")
-calculator(2, 3, "$")
+calculator(2, "-", 3)
+calculator(2, "+", 3)
+calculator(2, "*", 3)
+calculator(2, "/", 3)
+calculator(2, "$", 3)
