@@ -48,9 +48,34 @@ def check_time(hour):
         print(f"If it's {hour} o'clock now, then it's {am_pm}")
     else:
         print(am_pm)
-        
-        
+
+
 check_time(12)
 check_time(24)
 check_time(8)
 check_time(-3)
+
+
+# ________________________________________________________________________________________________________________
+
+# fan mode: 0 - Stop, 1 - Slow, 2 - Medium, 3 - Fast
+
+def fan(mode):
+    if mode == 0:
+        print("Stop")
+    elif mode == 1:
+        print("Slow")
+    elif mode == 2:
+        print("Medium")
+    elif mode == 3:
+        print("Fasе")
+    else:
+        print("Invalid mode! Try again please.")
+
+
+fan(0)
+fan(1)
+fan(2)
+fan(3)
+fan(4)
+fan(-10)
