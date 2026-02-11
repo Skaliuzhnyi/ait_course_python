@@ -18,3 +18,8 @@ user_number = input("\033[94mEnter you number: \033[0m")
 result = check_number(user_number)
 
 print(result)
+
+
+
+
+
