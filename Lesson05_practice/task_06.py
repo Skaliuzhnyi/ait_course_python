@@ -1,16 +1,39 @@
+# def check_number(number):
+#     positive = f"\033[93mNumber {number} is \033[35mpositive\033[0m"
+#     negative = f"\033[93mNumber {number} is \033[35mnegative\033[0m"
+
+#     if number > 0:
+#         return positive
+#     elif number < 0:
+#         return negative
+#     else:
+#         return f"\033[93mYou number is \033[35m'0' \033[93mand this is also a positive number!\033[0m"
+
+
+# user_number = int(input("\033[31mEnter you number: \033[0m"))
+
+# result = check_number(user_number)
+
+# print(result)
+
 def check_number(number):
-    positive = f"\033[93mNumber {number} is \033[35mpositive\033[0m"
-    negative = f"\033[93mNumber {number} is \033[35mnegative\033[0m"
+    try:
+        number_checked = int(number)
 
-    if number > 0:
-        return positive
-    elif number < 0:
-        return negative
-    else:
-        return f"\033[93mYou number is \033[35m'0' \033[93mand this is also a positive number!\033[0m"
+        positive = f"\033[93mNumber {number} is \033[35mpositive\033[0m"
+        negative = f"\033[93mNumber {number} is \033[35mnegative\033[0m"
+
+        if number_checked > 0:
+            return positive
+        elif number_checked < 0:
+            return negative
+        else:
+            return f"\033[93mYou number is \033[35m'0' \033[93mand this is also a positive number!\033[0m"
+    except ValueError:
+        print("\033[31mError: You must enter an integer!\033[0m")
 
 
-user_number = int(input("\033[31mEnter you number: \033[0m"))
+user_number = input("\033[94mEnter you number: \033[0m")
 
 result = check_number(user_number)
 
