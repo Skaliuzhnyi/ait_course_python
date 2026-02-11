@@ -14,7 +14,7 @@ def check_user_number(number):
         print(f"\033[93mNumber {number} is \033[35mnegative\033[0m")
 
 
-user_number = int(
+user_number = float(
     input("\033[31mEnter you number: \033[0m"))
 
 check_user_number(user_number)
