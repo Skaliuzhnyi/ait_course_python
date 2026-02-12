@@ -13,7 +13,7 @@ def check_admin(name, password):
     # else:
     #     return "\033[31mAccess denied\033[0m"
     
-    return "\033[32mAccess granted!\033[0m" if name == "admin" and password == "admin" else f"\033[31mAccess denied!\033[0m"
+    return f"\033[32mAccess granted!\033[0m" if name == "admin" and password == "admin" else f"\033[31mAccess denied!\033[0m"
 
 
 input_user_name = input(f"\033[35mEnter your name: \033[0m")

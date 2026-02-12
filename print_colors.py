@@ -1,7 +1,7 @@
 # print_colors.py
 
 # ANSI коды для цветов
-from print_colors import red, green, blue, bold
+# from print_colors import red, green, blue, bold
 RESET = "\033[0m"
 BOLD = "\033[1m"
 
