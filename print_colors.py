@@ -43,6 +43,6 @@ if __name__ == "__main__":
     print(bold("Жирный текст"))
 
 
-earnings = 1500
-print(f"Your salary: {green(earnings)}$ - {red('Not paid yet')}")
-print(bold("This is important"))
+# earnings = 1500
+# print(f"Your salary: {green(earnings)}$ - {red('Not paid yet')}")
+# print(bold("This is important"))
