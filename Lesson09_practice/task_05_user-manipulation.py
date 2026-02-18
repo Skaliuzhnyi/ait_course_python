@@ -7,3 +7,5 @@ while user_input != 'stop':
     user_input = input("Enter a number (or 'stop' to exit): ")
     
 print(f"Current numbers: {numbers}")
+numbers.sort()
+print(f"Sorted numbers: {numbers}")
