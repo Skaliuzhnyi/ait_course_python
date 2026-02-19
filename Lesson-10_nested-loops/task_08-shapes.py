@@ -9,7 +9,7 @@ def shape(n):
         print()  # New line after each row
 
 
-shape(5)
+shape(9)
 
 print('-' * 100)
 
@@ -30,7 +30,7 @@ def shape_1(n):
             1 else print('* ' + '  ' * (n - 2) + '* ')
 
 
-shape_1(5)
+shape_1(9)
 
 print('-' * 100)
 
@@ -55,7 +55,7 @@ def shape_2(n):
         print()
 
 
-shape_2(6)
+shape_2(9)
 
 
 # Создать функцию shape2, которая принимает целое число n
@@ -78,7 +78,7 @@ def shape_21(n):
         print()
 
 
-shape_21(6)
+shape_21(9)
 
 # Создать функцию shape3, которая принимает целое число n
 # и выводит на экран квадрат из звездочек размером n x n
@@ -96,7 +96,8 @@ def shape_3(n):
             # else:
             #     print(' ', end=' ')
 
-            print('*', end=' ') if i == 0 or \
+            print('*', end=' ') \
+                if i == 0 or \
                 i == n - 1 or \
                 j == 0 or \
                 j == n - 1 or \
@@ -107,4 +108,4 @@ def shape_3(n):
         print()
 
 
-shape_3(6)
+shape_3(13)
