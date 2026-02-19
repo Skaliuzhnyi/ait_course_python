@@ -109,3 +109,25 @@ def shape_3(n):
 
 
 shape_3(13)
+
+# Песочные часы из звездочек 
+
+
+def shape_3(n):
+    for i in range(0, n):
+        for j in range(0, n):
+            print('*', end=' ') \
+                if i == 0 or \
+                i == n - 1 or \
+                j == 0 or \
+                j == n - 1 or \
+                i == j or \
+                i <= j or \
+                i >= n-1-j or \
+                i == n - 1 - j \
+                else print(' ', end=' ')
+
+        print()
+
+
+shape_3(13)
