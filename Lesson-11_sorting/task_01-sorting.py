@@ -1,4 +1,3 @@
-
 import random
 
 start = 10
@@ -17,6 +16,28 @@ def bubble_sort(lst):
 
 bubble_sort(random_list)
 print(random_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def binary_search(lst, value):
@@ -43,7 +64,6 @@ index = binary_search(random_list, random_list[7])
 print(f'Index of {random_list[7]}: {index}')
 
 
-
 def bubbling(lst):
     flag = False
     for i in range(len(lst) - 1):
@@ -51,6 +71,3 @@ def bubbling(lst):
             lst[i], lst[i + 1] = lst[i + 1], lst[i]
             flag = True
     return flag
-
-def bubble_sort1(lst):
-    while bubbling(lst):
